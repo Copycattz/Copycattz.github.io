@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Indumentaria reyna</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+</head>
+
+<body>
+    <header>
+        <div class="cajalogo"> <a href="index.html"> <img class="logo" src="/imagenes/logo.png" alt="logo"></a> </div>
+
+        <nav class="flexNav">
+
+            <ul class="menuPag">
+                <div class="menu"> 
+                <li> <a href="index.html"> <img src="/imagenes/home.png" alt="iconohome"> Inicio </a>
+                </li>
+                <li> <a href="pages/ropa.html"> <img src="/imagenes/ropa.png" alt="iconoropa"> Ropa y
+                        accesorios </a> </li>
+                <li> <a href="pages/contacto.html"> <img src="/imagenes/contacto.png" alt="iconocontacto"> Contacto </a>
+                </li> 
+            </div>
+            <div> 
+                <button class="botonCarrito" data-bs-toggle="offcanvas" href="#offcanvasDark" role="button"
+                aria-controls="offcanvasDark"> <img id="carrito" src="/imagenes/carrito-de-compras (1).png"/>
+                
+            </button>
+        </div>
+
+            </ul>
+
+
+        </nav>
+
+        
+    </header>
+    <main class="mainHome">
+
+        <!--barra lateral-->
+ 
+            <div class="offcanvas offcanvas-end text-bg-dark" data-bs-scroll="true" tabindex="-1" id="offcanvasDark"
+                aria-labelledby="offcanvasDarkLabel">
+                <div class="offcanvas-header">
+                    <h5 class="offcanvas-title" id="offcanvasDarkLabel">Carrito de compras</h5>
+                    <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas"
+                        aria-label="Close"></button>
+                </div>
+                <div class="offcanvas-body">
+                    <div>
+                        El carrito de compras esta vacio.
+                    </div>
+                    <div class="dropdown mt-3">
+                        <a href="/pages/ropa.html" class="botonCompra"> Ir a la tienda </button>
+                    </div>
+                </div>
+            </div>
+       
+
+
+
+        <div class="banner">
+            <a href="/pages/ropa.html" class="button-53 boton" role="button">Ver ofertas</a>
+        </div>
+
+
+        <section id="informacion">
+
+            <div class="cajas">
+                <img class="iconoinfo" src="/imagenes/camion.png" alt="camion">
+                <h1 class="titulo"> Envios a todo el pais </h1>
+            </div>
+
+            <div class="cajas">
+                <img class="iconoinfo" src="/imagenes/seguro.png" alt="seguro">
+                <h2 class="titulo"> Protegemos tus datos </h2>
+            </div>
+
+            <div class="cajas">
+                <img class="iconoinfo" src="/imagenes/tarjetas.png" alt="tarjetas">
+                <h3 class="titulo"> Recibimos todas las tarjetas hasta 3 cuotas sin interes </h3>
+            </div>
+
+        </section>
+    </main>
+
+
+
+
+
+    <footer id="pie">
+        <p class="textopie"> Todos los derechos reservados 2022 </p>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous">
+    </script>
+</body>
+
+</html>
